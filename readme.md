@@ -4,10 +4,14 @@
 	composer install
 ```
 
+### Migrate Database
+```shell
+	php artisan migrate
+```
 ### Running process
 * type or copy
 ```shell
-	php.exe artisan playerAPI:import 
+	php artisan playerAPI:import 
 ```
  * it will output result if success or failed import
 
