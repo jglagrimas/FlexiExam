@@ -1,6 +1,11 @@
 ### remarks
 
-> _when importing it will not check if the player is already in the database as for the instruction if needed we can just use firstOrCreate , another thing is that the player id in the database have there own id `player_id` , if for API authentication i can easily use PASSPORT , for the design i used Repository patter(database transaction and other function  / or use eloquent)  and added the service layer (for non database transaction)._
+> _when importing it will not check if the player is already in the database as for the instruction if needed we can just use firstOrCreate , another thing is that the player id in the database have there own id `player_id` , if for API authentication i can easily use PASSPORT , for the design i used Repository patter(database transaction and other function  / or use eloquent)  and added the service layer (for non database transaction)
+
+another thing is that i can use this package https://github.com/jarektkaczyk/eloquence so we can easily map
+change field from response from API.
+
+._
 
 
 ### Installing
